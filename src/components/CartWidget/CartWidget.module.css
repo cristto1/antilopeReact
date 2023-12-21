@@ -1,0 +1,9 @@
+.bolsa{
+    width: 32px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 0 0;
+}
