@@ -1,4 +1,35 @@
-h1{
-    font-size: 20px;
+.itemListContainer{
+    background-color: antiquewhite;
+    text-align: center;
 }
+
+.welcomePhrase{
+    font-family: inherit;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.productsGrid{
+    /* display: flex; */
+    background-color: rgb(246, 243, 238);
+    
+}
+
+.productsGrid p{
+    margin-top: 10px;
+}
+
+.productsGrid h4{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.productsGrid button{
+    margin-bottom: 8px;
+}
+
+
+
+
 

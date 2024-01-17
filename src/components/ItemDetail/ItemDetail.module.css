@@ -1,0 +1,17 @@
+.cartDetail h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.cartDetail img{
+    margin-top: -15px;
+}
+
+.cartDetail h4{
+    margin-top: 1px;
+}
+
+.cartDetail p{
+    margin-top: -15px;
+    font-size: 16px;
+}

@@ -3,7 +3,7 @@ import bolsa from './assets/bolsa.png'
 
 const CartWidget = () => {
     return (
-        <div>
+        <div className={classes.bagContainer}>
             <img src={bolsa} className={classes.bolsa} />
             0
         </div>
