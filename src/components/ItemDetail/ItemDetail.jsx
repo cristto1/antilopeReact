@@ -1,17 +1,24 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import ItemCount from "../ItemCount/ItemCount"
 import classes from "./ItemDetail.module.css"
+import { useCart } from '../../context/CartContext'
 
 const ItemDetail = ({ id, name, img, category, price, description, stock }) => {
+    const [quantity, setQuantity] = useState(0)
+
+    const { addItem } = useCart()
 
     const handleOnAdd = (quantity) => {
-        const objProduct = {
+        const objProductToAdd = {
             id,
             name,
             quantity,
             price
         }
 
-        console.log('Agregaste al carrito: ', objProduct);
+        addItem(objProductToAdd)
+        setQuantity(quantity)
 
     }
 
