@@ -21,7 +21,7 @@ function App() {
             <Route path='/category/:categoryId' element={<ItemListContainer greeting={'Productos por categoría: '} />} />
             <Route path='/detail/:productId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<CartView />} />
-            <Route path='/chekout' element={<Checkout />} />
+            <Route path='/checkout' element={<Checkout />} />
             <Route path='*' element={<h1>ERROR 404</h1>} />
           </Routes>
         </CartProvider>
