@@ -7,6 +7,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import CartView from './components/CartView/CartView'
 import Checkout from './components/Checkout/Checkout'
+import Form from './components/Form/Form'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path='/detail/:productId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<CartView />} />
             <Route path='/checkout' element={<Checkout />} />
+            <Route path='/form' element={<Form />} />
             <Route path='*' element={<h1>ERROR 404</h1>} />
           </Routes>
         </CartProvider>

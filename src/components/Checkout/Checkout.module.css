@@ -1,0 +1,62 @@
+h1{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+h2{
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: -20px;
+}
+
+.detail{
+    margin: 30px;
+}
+
+.clearCart{
+    margin-left: 20px;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: inherit;
+    background-color:antiquewhite;
+    transition: border-color 0.25s;
+    border-color: gray;
+    text-decoration: none;
+}
+
+.clearCart:hover {
+    border-color: rgb(242, 233, 222);
+}
+
+.finishButton {
+    width: 130px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: inherit;
+    background-color:antiquewhite;
+    transition: border-color 0.25s;
+    border-color: gray;
+    text-decoration: none;
+    margin-left: 20px;
+} 
+
+.finishButton:hover {
+    border-color: rgb(242, 233, 222);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

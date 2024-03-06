@@ -30,6 +30,9 @@ const ItemDetail = ({ id, name, img, category, price, description, stock }) => {
             <h4>${price}</h4>
             <p>Descripción: {description}</p>
             <ItemCount stock={stock} onAdd={handleOnAdd} />
+            <Link to="/checkout">
+                <button className={classes.checkout}>Detalle de Compra</button>
+            </Link>
         </article>
     )
 }
